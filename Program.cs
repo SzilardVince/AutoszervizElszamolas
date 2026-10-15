@@ -42,3 +42,9 @@ foreach (string z in G)
         s += 1;
     }
 }
+Console.WriteLine("");
+Console.WriteLine("Összesített statisztika:");
+Console.WriteLine($"Szerviz által kifizettet teljes munkabér: {c} Ft");
+Console.WriteLine($"Átlagos munkaóra szerelőként: {j / (double)G.Length:F0} óra");
+Console.WriteLine($"Legmagasabb napi bér: {lk} ({max} Ft)");
+Console.WriteLine($"Garanciális hiba nélkül dolgozo szerelők száma: {s} fő");
